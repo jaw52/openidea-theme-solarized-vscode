@@ -1,5 +1,5 @@
 # A theme plugin is data only: no `wasm`, no capabilities, nothing to compile.
-id = "jaw.vscode-solarized"
+id = "jaw52.vscode-solarized"
 name = "Solarized (VS Code)"
 version = "1.0.0"
 description = "Solarized Light and Solarized Dark with the colours of the themes bundled with Visual Studio Code. Palette by Ethan Schoonover, VS Code themes by Microsoft."
