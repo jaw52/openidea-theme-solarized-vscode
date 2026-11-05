@@ -1,0 +1,19 @@
+# A theme plugin is data only: no `wasm`, no capabilities, nothing to compile.
+id = "jaw.vscode-solarized"
+name = "Solarized (VS Code)"
+version = "1.0.0"
+description = "Solarized Light and Solarized Dark with the colours of the themes bundled with Visual Studio Code. Palette by Ethan Schoonover, VS Code themes by Microsoft."
+authors = ["Ethan Schoonover (Solarized palette)", "Microsoft (VS Code themes)"]
+homepage = "https://github.com/jaw52/openidea-theme-solarized-vscode"
+license = "MIT"
+change-notes = "1.0.0 — first release."
+categories = ["themes"]
+engines.openidea = "^1.0"
+
+[[contributes.themes]]
+path = "themes/vscode-solarized-light.theme.json"
+editor-scheme = "themes/vscode-solarized-light.scheme.json"
+
+[[contributes.themes]]
+path = "themes/vscode-solarized-dark.theme.json"
+editor-scheme = "themes/vscode-solarized-dark.scheme.json"
